@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
-using UserServiceApp.Models;
-using RefactorUserService.Role;
+using RefactorUserService.Models;
+using BCrypt.Net;
 
 namespace RefactorUserService.Services
 {
